@@ -21,6 +21,7 @@ function Todo() {
     setNewTask("");
   };
 
+  // Delete function
   const removeTask = (index) => {
     if (taskToDelete === null) return;
     // const confirmDelete = window.confirm(
